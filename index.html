@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FitDelivery - Marmitas Saudáveis</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🍽️ FitDelivery</h1>
+    <p>Suas marmitas saudáveis entregues com praticidade!</p>
+  </header>
+
+  <main>
+    <section class="produtos">
+      <h2>Cardápio</h2>
+      <div class="marmita">
+        <h3>Low Carb</h3>
+        <p>Frango grelhado, legumes no vapor e arroz de couve-flor.</p>
+        <span>R$ 25,00</span>
+      </div>
+      <div class="marmita">
+        <h3>Vegana</h3>
+        <p>Grão-de-bico, tofu grelhado e mix de vegetais assados.</p>
+        <span>R$ 22,00</span>
+      </div>
+      <div class="marmita">
+        <h3>Tradicional</h3>
+        <p>Arroz, feijão, carne moída e salada simples.</p>
+        <span>R$ 20,00</span>
+      </div>
+    </section>
+
+    <section class="pedido">
+      <h2>Faça seu pedido</h2>
+      <button onclick="enviarPedido()">Pedir pelo WhatsApp</button>
+    </section>
+
+    <section class="cadastro">
+      <h2>Cadastre seu interesse</h2>
+      <form id="cadastroForm">
+        <input type="text" id="nome" placeholder="Seu nome" required />
+        <input type="email" id="email" placeholder="Seu e-mail" required />
+        <button type="submit">Cadastrar</button>
+      </form>
+      <p id="mensagem"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 FitDelivery. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
